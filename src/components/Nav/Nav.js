@@ -4,8 +4,11 @@ import './nav.scss'
 
 function Nav() {
   return (
-    <div className="nav">
-      <ul>
+    <div>
+      <body>
+        <div className='container'>
+        <nav className='nav'>
+        <ul>
         <a href='#home'>
             <li>Home</li>
         </a>
@@ -21,7 +24,10 @@ function Nav() {
         <a href='#contact'>
             <li>Contact</li>
         </a>
-      </ul>
+        </ul>
+        </nav>
+        </div>
+      </body>
     </div>
   );
 }

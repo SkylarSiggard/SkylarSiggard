@@ -1,26 +1,39 @@
 @mixin viewHeight() {
+  z-index: 1;
     width: 100%;
-    height: 100vh;
-    margin: 0;
+    max-height: 99vh;
+    min-height: 95vh;
+    display: flex;
   }
-  #home {
-  @include viewHeight();
-  background: gray;
-  }
+#home {
+  background-image: url('./../assets//alana-harris-E1liYFaV62w-unsplash.jpg');
+  height: 100vh;
+  width: 100%;
+  background-size: cover; 
+}
   #about {
-  @include viewHeight();
-  background: rgb(45, 77, 45);
+    background: rgb(45, 77, 45);
   }
   #projects {
-  @include viewHeight();
-  background: rgb(59, 59, 100);
+    background: rgb(59, 59, 100);
   }
   #stack {
-  @include viewHeight();
-  background: rgb(77, 77, 54);
-  }
-  #contact {
-  @include viewHeight();
+    background: rgb(77, 77, 54);
+}
+#contact {
   background: rgb(48, 21, 21);
-  }
-  
+}
+.container {
+  @include viewHeight();
+}
+.nav ul {
+  height: 30px;
+  width: 100%;
+  background: black;
+  position: fixed;
+  top: 0;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-around;
+}
