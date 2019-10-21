@@ -1,0 +1,19 @@
+.picture {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skylar {
+    margin: 0 0 0 10%;
+    height: 300px;
+    width: auto;
+    clip-path: circle(60%);
+}
+.info {
+    height: 200px;
+    width: 400px;
+    background: rgba(0, 1, 7, 0.192);
+    border:1px solid #021a40;
+}

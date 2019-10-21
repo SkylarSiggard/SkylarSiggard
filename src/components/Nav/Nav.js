@@ -1,6 +1,6 @@
 import React from 'react';
 import './nav.scss'
-
+import sig from '../assets/sig.png'
 
 function Nav() {
   return (
@@ -9,6 +9,7 @@ function Nav() {
         <div className='container'>
         <nav className='nav'>
         <ul>
+        <img className='logo' src={sig} alt=""/>
         <a href='#home'>
             <li>Home</li>
         </a>

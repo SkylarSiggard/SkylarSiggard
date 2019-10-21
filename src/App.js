@@ -8,12 +8,14 @@ import './App.scss'
 
 function App() {
   return (
+    <div className='scroll'>
     <div className="nav">
       <Home/>
       <About/>
       <Projects/>
       <Stack/>
       <Contact/>
+    </div>
     </div>
   );
 }
