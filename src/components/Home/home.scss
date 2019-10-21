@@ -6,14 +6,29 @@
     align-items: center;
 }
 .skylar {
-    margin: 0 0 0 10%;
     height: 300px;
     width: auto;
     clip-path: circle(60%);
 }
 .info {
-    height: 200px;
-    width: 400px;
+    height: 203px;
+    width: 398px;
     background: rgba(0, 1, 7, 0.192);
     border:1px solid #021a40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.boder-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 10%;
+    background: black;
+    height: 304px;
+    width: 199px;
+    clip-path: circle(59.5%);
 }
