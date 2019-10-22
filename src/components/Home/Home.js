@@ -9,12 +9,13 @@ function Home() {
       <Nav/>
       <div className='picture'>
         <div className='info'>
+          <h1>Welcome to my page.</h1>
           <h1>My name is</h1>
           <h1>Skylar Siggard</h1>
         </div>
         <div className='boder-pic'>
         <img className='skylar' src={Skylar} alt=""/>
-        </div>
+        </div>  
       </div>
     </div>
   );
