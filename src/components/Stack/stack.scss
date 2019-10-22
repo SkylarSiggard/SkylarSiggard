@@ -1,0 +1,34 @@
+.svg {
+    font-size: 40px;
+}
+.skill-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 83%;
+    height: 100vh;
+    img {
+        height: 130px;
+        width: 130px;
+        transition: transform .2s; 
+        margin: 0 auto;
+    }
+    img:hover {
+        transform: scale(1.5); 
+    }
+    i {
+    transition: transform .2s; 
+    margin: 0 auto;
+    font-size: 130px;
+}
+    i:hover {
+        transform: scale(1.5); 
+    }
+}
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 20%;
+    grid-column-gap: 10%;
+    width: auto;
+}
