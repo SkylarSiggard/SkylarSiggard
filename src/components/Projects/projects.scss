@@ -1,0 +1,39 @@
+.container-projects {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images {
+    display: flex;
+    flex-direction: column;
+}
+.sandman-img {
+    width: 150px;
+    height: 100px;
+    margin: 4px;
+}
+.text-img {
+    margin: 4px;
+    width: 150px;
+    height: 210px;
+}
+.projects-sandman {
+    height: 330px;
+    width: 30%;
+    background: rgba(62, 62, 219, 0.37);
+    display: flex;
+
+}
+.sandman-discription {
+    height: 310px;
+    width: 200px;
+    margin: 5px;
+    background: rgba(10, 0, 2, 0.774);
+    color: white;
+    padding: 5px;
+}
+p {
+    margin: 5px;
+}

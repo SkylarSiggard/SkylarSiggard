@@ -1,0 +1,27 @@
+.contact-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info {
+    height: 400px;
+    width: 1000px;
+    background: rgba(1, 175, 255, 0.452);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.contact-logo {
+    display: flex;
+    flex-direction: column;
+}
+i {
+    font-size: 60px;
+    margin: 5px 25px 0 0; 
+}
+.contact-text {
+    display: flex;
+    padding: 10px;
+}
