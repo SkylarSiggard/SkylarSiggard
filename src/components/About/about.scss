@@ -36,13 +36,13 @@
 @media (max-width: 750px) {
     .about-me {
         margin: 3% 0 0 1%;
-        border:2px solid #000000;
+        border: 2px solid #000000;
     }
     .about-picture {
-        background: black;
-        height: 350px;
+        height: auto;
         width: auto;
-        margin: 3% 0 0 0;
+        margin: 3% 0 0 5px;
+        padding: 2px;
     }
     .about-me {
         height: 400px;
