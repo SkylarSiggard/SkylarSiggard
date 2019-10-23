@@ -32,3 +32,29 @@
     width: 199px;
     clip-path: circle(59.8%);
 }
+@media (max-width: 750px) {
+    .info {
+        height: auto;
+        width: 250px;
+        padding: 10px;
+        font-size: 10px;
+        margin: 0 5px 0 5px;
+    }
+    .skylar {
+        margin: 0 5px 0 5px;
+    }
+    .boder-pic {
+        margin: 0 0 0 1%;
+    }
+}
+@media (max-width: 500px) {
+    .info {
+        font-size: 8px;
+        padding: 5px;
+        height: auto;
+        width: 300px;
+    }                  
+    .boder-pic {
+        margin: 0 10px 0 0;
+    }
+}

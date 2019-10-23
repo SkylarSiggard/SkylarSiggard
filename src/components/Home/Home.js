@@ -14,7 +14,7 @@ function Home() {
           <h1>Skylar Siggard</h1>
         </div>
         <div className='boder-pic'>
-        <img className='skylar' src={Skylar} alt="a picture of skylar"/>
+        <img className='skylar' src={Skylar} alt="skylar and his wife"/>
         </div>  
       </div>
     </div>

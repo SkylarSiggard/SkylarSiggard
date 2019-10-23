@@ -9,7 +9,7 @@ function About() {
       <Nav/>
       <div className='about-box'>
         <div className='about-picture'>
-          <img className='about-skylar' src={skylarAbout} alt=""/>
+          <img className='about-skylar' src={skylarAbout} alt="skylar on a boat"/>
         </div>
         <div className='about-me'>
           <div className='about-text'>

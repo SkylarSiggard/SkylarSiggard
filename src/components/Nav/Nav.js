@@ -9,7 +9,7 @@ function Nav() {
         <div className='container'>
         <nav className='nav'>
         <ul>
-        <img className='logo' src={sig} alt=""/>
+        <img className='logo' src={sig} alt="a logo with sig"/>
         <a href='#home'>
             <li>Home</li>
         </a>

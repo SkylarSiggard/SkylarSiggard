@@ -33,3 +33,41 @@
     margin: 30px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+@media (max-width: 750px) {
+    .about-me {
+        margin: 3% 0 0 1%;
+        border:2px solid #000000;
+    }
+    .about-picture {
+        background: black;
+        height: 350px;
+        width: auto;
+        margin: 3% 0 0 0;
+    }
+    .about-me {
+        height: 400px;
+        width: 400px;
+        margin: 1% 0 0 1%;
+    }
+    .about-skylar {
+        height: 300px;
+        width: auto;
+        padding: 1px;
+    }
+}
+@media (max-width: 600px) {
+    .about-text {
+        margin: 1% 0 0 1%;
+        font-size: 16px;
+    }
+}
+@media (max-width: 550px) {
+    .about-text {
+        font-size: 13px;
+    }
+}
+@media (max-width: 500px) {
+    .about-text {
+        font-size: 12px;
+    }
+}
