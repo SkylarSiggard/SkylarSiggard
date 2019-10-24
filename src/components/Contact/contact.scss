@@ -6,22 +6,54 @@
     align-items: center;
 }
 .contact-info {
-    height: 400px;
-    width: 1000px;
+    height: auto;
+    width: auto;
     background: rgba(1, 175, 255, 0.452);
     display: flex;
     justify-content: center;
     align-items: center;   
+    padding: 20px;
+    margin: 10px;
 }
 .contact-logo {
     display: flex;
     flex-direction: column;
 }
-i {
-    font-size: 60px;
-    margin: 5px 25px 0 0; 
-}
+
 .contact-text {
     display: flex;
     padding: 10px;
+    i {
+        font-size: 40px;
+        margin: 5px 25px 0 0; 
+    }
+    p {
+        font-size: 40px;
+    }
+}
+@media (max-width: 750px) {
+    .contact-text {
+        i {
+            font-size: 30px; 
+        }
+        p {
+            font-size: 30px;
+        }
+    }
+}
+@media (max-width: 600px) {
+    .contact-text {
+        i {
+            font-size: 20px; 
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+}
+@media (max-width: 550px) {
+
+}
+@media (max-width: 500px) {
+
 }

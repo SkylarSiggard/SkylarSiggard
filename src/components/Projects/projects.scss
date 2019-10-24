@@ -21,10 +21,15 @@
 }
 .projects-sandman {
     height: 330px;
-    width: 30%;
+    width: 340;
     background: rgba(62, 62, 219, 0.37);
     display: flex;
-
+    img {
+        transition: transform .2s; 
+    }
+    img:hover {
+        transform: scale(1.5); 
+    }
 }
 .sandman-discription {
     height: 310px;
@@ -36,4 +41,23 @@
 }
 p {
     margin: 5px;
+}
+@media (max-width: 750px) {
+    .projects-sandman {
+        img {
+            transition: transform none; 
+        }
+        img:hover {
+            transform: none; 
+        }
+    }
+}
+@media (max-width: 600px) {
+
+}
+@media (max-width: 550px) {
+
+}
+@media (max-width: 500px) {
+
 }

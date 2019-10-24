@@ -11,19 +11,19 @@ function Contact() {
           <div className='contact-logo'>
             <div className='contact-text'>
               <i class="far fa-envelope"></i>
-              <h1>siggardskylar@gmail.com</h1>
+              <p>siggardskylar@gmail.com</p>
             </div>
             <div className='contact-text'>
               <i class="fas fa-phone"></i>
-              <h1>(801) 557 - 0544</h1>
+              <p>(801) 557 - 0544</p>
             </div>
             <div className='contact-text'>
               <i class="fab fa-github"></i>
-              <h1>https://github.com/SkylarSiggard</h1>
+              <p>https://github.com/SkylarSiggard</p>
             </div>
             <div className='contact-text'>
               <i class="fab fa-linkedin-in"></i>
-              <h1>https://www.linkedin.com/in/skylar-siggard</h1>
+              <p>https://www.linkedin.com/in/skylar-siggard</p>
             </div>
           </div>
         </div>
