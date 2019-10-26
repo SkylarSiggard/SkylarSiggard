@@ -14,7 +14,7 @@ function About() {
         <div className='about-me'>
           <div className='about-text'>
             <h4>Hi, I'm Skylar...</h4>
-            <p>Soon after graduating with Bachelor's degrees in Criminal Justice, I realized my dream of going into the FBI would be too hard on my family. I decided to try different options before submittin my resume to the FBI. This is went i with coding and community surrounding the fell in love tech world. I fell in love with finding solutions and working through complex problems. When I'm not coding I enjoy playing video games, snowboarding, and being outdoors. If you have any questions please don't hesitate to get in touch! </p>
+            <p>Soon after graduating with Bachelor's degrees in Criminal Justice, I realized my dream of going into the FBI would be too hard on my family. I decided to try different options before submittin my resume to the FBI. This is when I fell in love with coding and community surrounding the tech world. I love finding solutions and working through complex problems. When I'm not coding I enjoy playing video games, snowboarding, and being outdoors. If you have any questions please don't hesitate to get in touch! </p>
           </div>
         </div>
       </div>
