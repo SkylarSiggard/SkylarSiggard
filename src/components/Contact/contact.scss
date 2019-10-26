@@ -20,15 +20,19 @@
     flex-direction: column;
 }
 
+
 .contact-text {
     display: flex;
     padding: 10px;
     i {
         font-size: 40px;
         margin: 5px 25px 0 0; 
+        text-decoration: none;
     }
-    p {
+    a, p {
         font-size: 40px;
+        color: white;
+        text-decoration: none !important;
     }
 }
 @media (max-width: 750px) {

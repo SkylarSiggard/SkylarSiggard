@@ -18,7 +18,7 @@ function Projects() {
             <h3>Reminder App</h3>
             <p>My goal with this project was to learn how to use cron jobs to create a reminder app. Once I learned cron I used them to maintain my database, send messages through twillio, and maintain other pending cron jobs.</p>
             <p>Built with: SASS, Twillio, Cron, Moment, JavaScript, HTML, and PostgreSQL</p>
-            <h6>Link: https://sandmanevents.com/#/</h6>
+            <a href={'https://sandmanevents.com/#/'}><h6>https://sandmanevents.com/#/</h6></a>
           </div>
         </div>
       </div>

@@ -19,11 +19,11 @@ function Contact() {
             </div>
             <div className='contact-text'>
               <i class="fab fa-github"></i>
-              <p>https://github.com/SkylarSiggard</p>
+              <a href={'https://github.com/SkylarSiggard'}><p>https://github.com/SkylarSiggard</p></a>
             </div>
             <div className='contact-text'>
               <i class="fab fa-linkedin-in"></i>
-              <p>https://www.linkedin.com/in/skylar-siggard</p>
+              <a href={'https://www.linkedin.com/in/skylar-siggard'}><p>https://www.linkedin.com/in/skylar-siggard</p></a>
             </div>
           </div>
         </div>
