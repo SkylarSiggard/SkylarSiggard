@@ -1,6 +1,6 @@
 import React from 'react';
 import './nav.scss'
-import sig from '../assets/sig.png'
+import sig from '../assets/Skylar-Logo.PNG'
 
 function Nav() {
   return (
