@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/SkylarSiggard/static/css/main.6fd64698.chunk.css",
+    "main.js": "/SkylarSiggard/static/js/main.b1a28139.chunk.js",
+    "main.js.map": "/SkylarSiggard/static/js/main.b1a28139.chunk.js.map",
+    "runtime-main.js": "/SkylarSiggard/static/js/runtime-main.097ab939.js",
+    "runtime-main.js.map": "/SkylarSiggard/static/js/runtime-main.097ab939.js.map",
+    "static/js/2.b8a55caf.chunk.js": "/SkylarSiggard/static/js/2.b8a55caf.chunk.js",
+    "static/js/2.b8a55caf.chunk.js.map": "/SkylarSiggard/static/js/2.b8a55caf.chunk.js.map",
+    "index.html": "/SkylarSiggard/index.html",
+    "precache-manifest.1121d2d5b475dbff1652415522b96906.js": "/SkylarSiggard/precache-manifest.1121d2d5b475dbff1652415522b96906.js",
+    "service-worker.js": "/SkylarSiggard/service-worker.js",
+    "static/css/main.6fd64698.chunk.css.map": "/SkylarSiggard/static/css/main.6fd64698.chunk.css.map",
+    "static/media/Sandman.PNG": "/SkylarSiggard/static/media/Sandman.e6ee54f4.PNG",
+    "static/media/Skylar-Logo.PNG": "/SkylarSiggard/static/media/Skylar-Logo.a8bf798f.PNG",
+    "static/media/nav.scss": "/SkylarSiggard/static/media/water.dfcae066.jpg",
+    "static/media/battleship1.PNG": "/SkylarSiggard/static/media/battleship1.fc0a8333.PNG",
+    "static/media/battleship2.PNG": "/SkylarSiggard/static/media/battleship2.7d785986.PNG",
+    "static/media/battleship3.PNG": "/SkylarSiggard/static/media/battleship3.873920c3.PNG",
+    "static/media/css3.png": "/SkylarSiggard/static/media/css3.5c4e16ce.png",
+    "static/media/nodejs.png": "/SkylarSiggard/static/media/nodejs.b73453c6.png",
+    "static/media/react.png": "/SkylarSiggard/static/media/react.066f20b0.png",
+    "static/media/skylar.JPG": "/SkylarSiggard/static/media/skylar.2663ace7.JPG",
+    "static/media/skylarabout.JPG": "/SkylarSiggard/static/media/skylarabout.2c20ba41.JPG",
+    "static/media/text.jpg": "/SkylarSiggard/static/media/text.3edcfe59.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.097ab939.js",
+    "static/js/2.b8a55caf.chunk.js",
+    "static/css/main.6fd64698.chunk.css",
+    "static/js/main.b1a28139.chunk.js"
+  ]
+}
