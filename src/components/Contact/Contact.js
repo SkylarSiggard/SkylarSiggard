@@ -15,7 +15,7 @@ function Contact() {
             </div>
             <div className='contact-text'>
               <i class="fas fa-phone"></i>
-              //<p>(801) 557 - 0544</p>
+              //<p>(***) *** - 0544</p>
             </div>
             <div className='contact-text'>
               <i class="fab fa-github"></i>
