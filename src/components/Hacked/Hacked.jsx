@@ -1,10 +1,10 @@
-import './ForFun';
+import './Hacked';
 import React from 'react';
 
 export default function ForFun() {
     return (
         <div className="ForFun">
-            <h1>ForFun</h1>
+            <h1>Hacked</h1>
         </div>
     );
 }

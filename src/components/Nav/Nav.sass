@@ -1,1 +1,87 @@
 @import '../../App.sass';
+.nav 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    background: blue;
+
+.hamburger 
+    font-size: 24px;
+    margin: 1vh 0 1vh 5vw;
+    color: white;
+    .hamburger:hover 
+        cursor: pointer;
+
+.canon-creative 
+    margin: 1vh 0 1vh 0;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+
+.one-more-div 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+.title-nav 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+.nav-row 
+    display: none !important;
+
+.nav-list 
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    position: relative;
+    z-index: 10;
+    color: white;
+    .hover-test:hover 
+        opacity: .5;
+
+    li 
+        margin: 1vh 5vw 2vh 5vw;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    .link-decoration 
+        text-decoration: none;
+
+
+
+.dropdown 
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background: red;
+    position: relative;
+    z-index: 10;
+    // justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    transition: 1s;
+    // border: solid black 1px;
+    overflow: hidden;
+    font-family: yellow;
+    color: white;
+    font-size: 30px;
+    li 
+        margin: 6vh 0 5vh 0;
+        color: white;
+    .link-decoration 
+        text-decoration: none;
+
+.hide 
+    height: 0;
+
+
+@media (min-width: 769px)
+    .nav-row 
+        display: inline-block !important;
+    .hamburger
+        display: none;
+
