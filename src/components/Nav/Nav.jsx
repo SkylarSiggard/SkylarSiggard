@@ -2,12 +2,13 @@ import './Nav';
 import './Nav.sass'
 import React , {Component} from 'react';
 import {Link} from 'react-router-dom'
+import Logo from '../Assets/Skylar/Skylar-Logo.PNG'
 
 class Nav extends Component {
     constructor() {
         super()
         this.state = {
-            
+            ham: true
         }
     }
     clickHamburger() {
@@ -18,11 +19,31 @@ class Nav extends Component {
             dropdown.classList.add('hide')
         }
     }
+    changeIcon(){
+        this.setState({
+            ham: !this.state.ham
+        })
+    }
     render() {
         return(
             <div className= "header">
                 <div className='nav'>
-                    <i onClick={() => this.clickHamburger()} className="hamburger fas fa-bars">Will be icon</i>
+                <img src={Logo} alt="My Logo"/>
+                    <div onClick={() => this.clickHamburger()} className="hamburger fas fa-bars">
+                        {this.state.ham ? <>
+                            <div className="container" onClick={() => this.changeIcon()}>
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                                <div class="bar3"></div>
+                        </div>
+                        </> :
+                            <div className="container" onClick={() => this.changeIcon()}>
+                                <div class="bar4"></div>
+                                <div class="bar5"></div>
+                                <div class="bar6"></div>
+                            </div>
+                        }
+                    </div>
                     <div className="one-more-div">
                         <div className="title-nav">
                             <nav className="nav-row">
