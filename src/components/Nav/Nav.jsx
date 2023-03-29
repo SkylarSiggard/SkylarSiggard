@@ -15,6 +15,7 @@ class Nav extends Component {
             <div className= "header">
                 <div className='nav'>
                 <img src={Logo} alt="My Logo"/>
+                <h1>SKYLAR SIGGARD</h1>
                 </div>
             </div>
         )
