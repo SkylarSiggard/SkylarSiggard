@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/SkylarSiggard/static/css/main.45d49362.css",
+    "main.js": "/SkylarSiggard/static/js/main.167b3176.js",
+    "static/js/787.d82b34a4.chunk.js": "/SkylarSiggard/static/js/787.d82b34a4.chunk.js",
+    "static/media/September.jpg": "/SkylarSiggard/static/media/September.fe675ac3ab5be825f78c.jpg",
+    "static/media/August.jpg": "/SkylarSiggard/static/media/August.67b17d8bd4c5c0bf7e48.jpg",
+    "static/media/May.jpg": "/SkylarSiggard/static/media/May.7a3c584fbc494e37af4a.jpg",
+    "static/media/November.jpg": "/SkylarSiggard/static/media/November.159b18bd6897f96a748b.jpg",
+    "static/media/June.jpg": "/SkylarSiggard/static/media/June.13245f2c4cb41887aee6.jpg",
+    "static/media/Febuary.jpg": "/SkylarSiggard/static/media/Febuary.9da7e73bb40c8b67b378.jpg",
+    "static/media/October.jpg": "/SkylarSiggard/static/media/October.b2f1db4a267d9519cbf3.jpg",
+    "static/media/April.jpg": "/SkylarSiggard/static/media/April.74fee0699c901a941ace.jpg",
+    "static/media/December.jpg": "/SkylarSiggard/static/media/December.7bb320cd00f566142288.jpg",
+    "static/media/July.jpg": "/SkylarSiggard/static/media/July.6fd8cbfce43bcd2ab2b4.jpg",
+    "static/media/January.jpg": "/SkylarSiggard/static/media/January.c04254a7de977a899fd0.jpg",
+    "static/media/March.jpg": "/SkylarSiggard/static/media/March.7287b9008099367b1cce.jpg",
+    "static/media/FamilyPhotos.JPG.jpeg": "/SkylarSiggard/static/media/FamilyPhotos.JPG.0df40d8f24ff54dae41b.jpeg",
+    "static/media/Hacked.jpg": "/SkylarSiggard/static/media/Hacked.f31920860e58bb341dae.jpg",
+    "static/media/Skylar-Logo.PNG": "/SkylarSiggard/static/media/Skylar-Logo.95cf7b0d7d82d9606db2.PNG",
+    "index.html": "/SkylarSiggard/index.html",
+    "main.45d49362.css.map": "/SkylarSiggard/static/css/main.45d49362.css.map",
+    "main.167b3176.js.map": "/SkylarSiggard/static/js/main.167b3176.js.map",
+    "787.d82b34a4.chunk.js.map": "/SkylarSiggard/static/js/787.d82b34a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45d49362.css",
+    "static/js/main.167b3176.js"
+  ]
+}
