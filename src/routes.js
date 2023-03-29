@@ -11,11 +11,11 @@ import Projects from './components/Projects/Projects'
 
 export default (   
     <Routes>
-        <Route path='/SkylarSiggard' element={<Profile/>}/>
-        <Route path='/SkylarSiggard/Stack' element={<Stack/>}/>
-        <Route path='/SkylarSiggard/Schooling' element={<Schooling/>}/>
-        <Route path='/SkylarSiggard/Bootcamp' element={<Bootcamp/>}/>
-        <Route path='/SkylarSiggard/Hacked' element={<Hacked/>}/>
-        <Route path='/SkylarSiggard/Projects' element={<Projects/>}/>
+        <Route path='/' element={<Profile/>}/>
+        <Route path='/Stack' element={<Stack/>}/>
+        <Route path='/Schooling' element={<Schooling/>}/>
+        <Route path='/Bootcamp' element={<Bootcamp/>}/>
+        <Route path='/Hacked' element={<Hacked/>}/>
+        <Route path='/Projects' element={<Projects/>}/>
     </Routes>
 )

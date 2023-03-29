@@ -1,7 +1,6 @@
 import './Nav';
 import './Nav.sass'
 import React , {Component} from 'react';
-import {Link} from 'react-router-dom'
 import Logo from '../Assets/Skylar/Skylar-Logo.PNG'
 
 class Nav extends Component {
