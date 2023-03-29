@@ -48,7 +48,7 @@ class Nav extends Component {
                         <div className="title-nav">
                             <nav className="nav-row">
                                 <nav className="nav-list">
-                                    <Link className='link-decoration' to='/'>
+                                    <Link className='link-decoration' to='/SkylarSiggard'>
                                         <li className='hover-test'>Profile</li>
                                     </Link>    
                                     <Link className='link-decoration' to='/Stack'>
@@ -70,7 +70,7 @@ class Nav extends Component {
                     </div>
                 </div>
                 <nav id='dropdown' className='hide dropdown'>
-                    <Link className='link-decoration' to='/'>
+                    <Link className='link-decoration' to='/SkylarSiggard'>
                         <li onClick={() => this.clickHamburger()}>Profile</li>
                     </Link>
                     <Link className='link-decoration' to='/Stack'>

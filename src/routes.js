@@ -11,7 +11,7 @@ import Projects from './components/Projects/Projects'
 
 export default (   
     <Routes>
-        <Route path='/' element={<Profile/>}/>
+        <Route path='/SkylarSiggard' element={<Profile/>}/>
         <Route path='/Stack' element={<Stack/>}/>
         <Route path='/Schooling' element={<Schooling/>}/>
         <Route path='/Bootcamp' element={<Bootcamp/>}/>
