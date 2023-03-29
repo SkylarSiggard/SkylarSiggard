@@ -6,7 +6,7 @@ import Stack from './components/Stack/Stack'
 import Schooling from './components/Schooling/Schooling'
 import Bootcamp from './components/Bootcamp/Bootcamp'
 import Hacked from './components/Hacked/Hacked'
-import Professional from './components/Professional/Professional'
+import Projects from './components/Projects/Projects'
 
 
 export default (   
@@ -16,6 +16,6 @@ export default (
         <Route path='/Schooling' element={<Schooling/>}/>
         <Route path='/Bootcamp' element={<Bootcamp/>}/>
         <Route path='/Hacked' element={<Hacked/>}/>
-        <Route path='/Professional' element={<Professional/>}/>
+        <Route path='/Projects' element={<Projects/>}/>
     </Routes>
 )
