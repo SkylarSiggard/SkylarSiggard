@@ -1,2 +1,71 @@
 @import '../../App.sass';
 
+* 
+    box-sizing: border-box;
+
+
+body 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+.container 
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+
+header
+    background-color: #f2f2f2;
+    padding: 20px 0;
+
+.col-1 
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+
+.col-1 img
+    display: block;
+    padding: 1%;
+    width: 100%;
+    border: 5px solid black;
+    margin: 20%;
+
+
+.col-2
+    width: 50%;
+    margin: 10%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+.box
+    display: block;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.514);
+    border: 2px solid black;
+
+.box a
+    color: rgba(255, 255, 255, 0.796)
+    text-decoration: none;
+
+.bio-box
+    text-align: center;
+    border: 10px solid rgba(255, 255, 255, 0.317);
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: rgba(255, 255, 255, 0.796)
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.6;
+
+@media screen and (max-width: 568px)
+    .col-1, .col-2
+        width: 70%;
+        display: block;
+    .box
+        display: block;
+        margin: 10px 0;

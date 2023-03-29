@@ -1,10 +1,26 @@
 import './Hacked';
-import React from 'react';
+import './Hacked.sass';
+import React, { Component } from 'react'
 
-export default function ForFun() {
-    return (
-        <div className="ForFun">
-            <h1>Hacked</h1>
+export default class Hacked extends Component {
+    constructor(){
+        super()
+        this.state = {
+            date: ''
+        }
+    }
+
+    handleHacked = (e) => {
+        this.setState({
+            date: e
+        })
+    }
+
+    render = () => {
+        return ( 
+        <div className='Hacked'>
+            <h1>I am planning on making this page a fun way to hack my page</h1>
         </div>
-    );
+        )
+    }
 }

@@ -29,26 +29,26 @@ export default class App extends Component {
         }
     }
     month = (date) => {
-      if (date === 1){return January;} 
-      else if (date === 2) { return Febuary;}
-      else if (date === 3) { return March;}
-      else if (date === 4) { return April;}
-      else if (date === 5) { return May;}
-      else if (date === 6) { return June;}
-      else if (date === 7) { return July;}
-      else if (date === 8) { return August;}
-      else if (date === 9) { return September;}
-      else if (date === 10) { return October;}
-      else if (date === 11) { return November;}
-      else if (date === 12) { return December;}
-      else return Hacked;
-  }
-  
+        if (date === 1){return January;} 
+        else if (date === 2) { return Febuary;}
+        else if (date === 3) { return March;}
+        else if (date === 4) { return April;}
+        else if (date === 5) { return May;}
+        else if (date === 6) { return June;}
+        else if (date === 7) { return July;}
+        else if (date === 8) { return August;}
+        else if (date === 9) { return September;}
+        else if (date === 10) { return October;}
+        else if (date === 11) { return November;}
+        else if (date === 12) { return December;}
+        else return Hacked;
+    }
+
     render = () => {
         return ( 
-          <div className='Background'  style={{backgroundImage: `url(${this.month(this.state.date)})`}}>
-          <Nav/>
-          {routes}
+        <div className='Background'  style={{backgroundImage: `url(${this.month(this.state.date)})`}}>
+            <Nav/>
+            {routes}
         </div>
         )
     }
