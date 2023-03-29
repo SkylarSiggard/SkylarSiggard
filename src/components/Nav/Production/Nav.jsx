@@ -51,16 +51,16 @@ class Nav extends Component {
                                     <Link className='link-decoration' to='/SkylarSiggard'>
                                         <li className='hover-test'>Profile</li>
                                     </Link>    
-                                    <Link className='link-decoration' to='/Stack'>
+                                    <Link className='link-decoration' to='/SkylarSiggard/Stack'>
                                         <li className='hover-test'>Stack</li>
                                     </Link>
-                                    <Link className="link-decoration" to='/Schooling'>
+                                    <Link className="link-decoration" to='/SkylarSiggard/Schooling'>
                                         <li>Schooling</li>
                                     </Link> 
-                                    <Link className="link-decoration" to='/Bootcamp'>
+                                    <Link className="link-decoration" to='/SkylarSiggard/Bootcamp'>
                                         <li className='hover-test'>Bootcamp</li>
                                     </Link>
-                                    <Link className="link-decoration" to='/Projects'>
+                                    <Link className="link-decoration" to='/SkylarSiggard/Projects'>
                                         <li className='hover-test'>Projects</li>
                                     </Link>
                                     
@@ -73,16 +73,16 @@ class Nav extends Component {
                     <Link className='link-decoration' to='/SkylarSiggard'>
                         <li onClick={() => this.clickHamburger()}>Profile</li>
                     </Link>
-                    <Link className='link-decoration' to='/Stack'>
+                    <Link className='link-decoration' to='/SkylarSiggard/Stack'>
                         <li onClick={() => this.clickHamburger()}>Stack</li>
                     </Link>
-                    <Link className="link-decoration" to='/Schooling'>
+                    <Link className="link-decoration" to='/SkylarSiggard/Schooling'>
                         <li onClick={() => this.clickHamburger()}>Schooling</li>
                     </Link> 
-                    <Link className="link-decoration" to='/Bootcamp'>
+                    <Link className="link-decoration" to='/SkylarSiggard/Bootcamp'>
                         <li onClick={() => this.clickHamburger()}>Bootcamp</li>
                     </Link>
-                    <Link className="link-decoration" to='/Professional'>
+                    <Link className="link-decoration" to='/SkylarSiggard/Professional'>
                         <li onClick={() => this.clickHamburger()}>Professional</li>
                     </Link>
                 </nav>
