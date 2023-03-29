@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SkylarSiggard/static/css/main.45d49362.css",
-    "main.js": "/SkylarSiggard/static/js/main.167b3176.js",
+    "main.js": "/SkylarSiggard/static/js/main.1ef6d9bf.js",
     "static/js/787.d82b34a4.chunk.js": "/SkylarSiggard/static/js/787.d82b34a4.chunk.js",
     "static/media/September.jpg": "/SkylarSiggard/static/media/September.fe675ac3ab5be825f78c.jpg",
     "static/media/August.jpg": "/SkylarSiggard/static/media/August.67b17d8bd4c5c0bf7e48.jpg",
@@ -20,11 +20,11 @@
     "static/media/Skylar-Logo.PNG": "/SkylarSiggard/static/media/Skylar-Logo.95cf7b0d7d82d9606db2.PNG",
     "index.html": "/SkylarSiggard/index.html",
     "main.45d49362.css.map": "/SkylarSiggard/static/css/main.45d49362.css.map",
-    "main.167b3176.js.map": "/SkylarSiggard/static/js/main.167b3176.js.map",
+    "main.1ef6d9bf.js.map": "/SkylarSiggard/static/js/main.1ef6d9bf.js.map",
     "787.d82b34a4.chunk.js.map": "/SkylarSiggard/static/js/787.d82b34a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45d49362.css",
-    "static/js/main.167b3176.js"
+    "static/js/main.1ef6d9bf.js"
   ]
 }
