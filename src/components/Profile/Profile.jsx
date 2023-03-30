@@ -15,8 +15,8 @@ export default function Profile() {
 			<div className="col-2">
                 <div className="box"><a href="https://github.com/SkylarSiggard">Github</a></div>
 				<div className="box"><a href="https://www.linkedin.com/in/skylar-siggard/">Linkedin</a></div>
-				<div className="box"><a href="tryhackme.com/p/siggardskylar ">TryHackMe</a></div>
-				<div className="box"><a href="www.codewars.com/users/Mango_Magnum">CodeWars</a></div>
+				<div className="box"><a href="https://tryhackme.com/p/siggardskylar">TryHackMe</a></div>
+				<div className="box"><a href="https://www.codewars.com/users/Mango_Magnum">CodeWars</a></div>
                 <div className="box"><a href="https://app.hackthebox.com/profile/1239357">HackTheBox</a></div>
 			</div>
 		</div>
