@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.37c5d5bb.css",
-    "main.js": "/static/js/main.c7563a23.js",
+    "main.js": "/static/js/main.3d7eff4b.js",
     "static/js/787.d82b34a4.chunk.js": "/static/js/787.d82b34a4.chunk.js",
     "static/media/September.jpg": "/static/media/September.fe675ac3ab5be825f78c.jpg",
     "static/media/August.jpg": "/static/media/August.67b17d8bd4c5c0bf7e48.jpg",
@@ -20,11 +20,11 @@
     "static/media/Skylar-Logo.PNG": "/static/media/Skylar-Logo.95cf7b0d7d82d9606db2.PNG",
     "index.html": "/index.html",
     "main.37c5d5bb.css.map": "/static/css/main.37c5d5bb.css.map",
-    "main.c7563a23.js.map": "/static/js/main.c7563a23.js.map",
+    "main.3d7eff4b.js.map": "/static/js/main.3d7eff4b.js.map",
     "787.d82b34a4.chunk.js.map": "/static/js/787.d82b34a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37c5d5bb.css",
-    "static/js/main.c7563a23.js"
+    "static/js/main.3d7eff4b.js"
   ]
 }
