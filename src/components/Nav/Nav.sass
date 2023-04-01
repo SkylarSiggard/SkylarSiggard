@@ -23,13 +23,13 @@ h1
 .hamburger 
     font-size: 24px;
     margin: 1vh 0 1vh 5vw;
-    color: white;
+    color: $text-color;
     .hamburger:hover 
         cursor: pointer;
 
 .canon-creative 
     margin: 1vh 0 1vh 0;
-    color: white;
+    color: $text-color;
     font-weight: bold;
     font-size: 28px;
 
@@ -52,7 +52,7 @@ h1
     list-style: none;
     position: relative;
     z-index: 10;
-    color: white;
+    color: $text-color;
     .hover-test:hover 
         opacity: .5;
 
@@ -60,8 +60,8 @@ h1
         margin: 1vh 3vw 2vh 3vw;
         font-size: 20px;
         font-weight: bold;
-        color: white;
-    .link-decoration 
+        color: $text-color;
+    .link-decoration1 
         text-decoration: none;
 
 
@@ -70,23 +70,34 @@ h1
     display: flex;
     flex-direction: column;
     list-style: none;
-    background: red;
     position: relative;
     z-index: 10;
-    // justify-content: space-evenly;
     align-items: center;
     height: 100vh;
     transition: 1s;
     // border: solid black 1px;
     overflow: hidden;
-    font-family: yellow;
-    color: white;
+    text-decoration: nono;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $text-color;
     font-size: 30px;
     li 
-        margin: 6vh 0 5vh 0;
-        color: white;
-    .link-decoration 
+        margin: 3vh 0 5vh 0;
+        color: $text-color;
+    .link-decoration2
         text-decoration: none;
+        text-align: center;
+        height: 10vh
+        width: 80vw
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 5px;
+        padding: 3px;
+        background-color: $base-color;
+        border: 5px solid $base-color;
+
 
 .hide 
     height: 0;
@@ -104,15 +115,21 @@ h1
     cursor: pointer;
 
 
-.bar1, .bar2, .bar3 
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-.bar4, .bar5, .bar6 
-    width: 35px;
-    height: 5px;
-    background-color: red;
-    margin: 6px 0;
-    transition: 0.4s;
+    .bar1, .bar2, .bar3 
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    .bar4, .bar5, .bar6 
+        width: 35px;
+        height: 5px;
+        background-color: red;
+        margin: 6px 0;
+        transition: 0.4s;
+    .bar4
+        transform: rotate(-45deg) translate(-7px, 8px);
+    .bar5 
+        opacity: 0;
+    .bar6
+        transform: rotate(45deg) translate(-7px, -8px);
