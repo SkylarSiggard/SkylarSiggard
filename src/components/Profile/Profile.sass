@@ -1,33 +1,21 @@
 @import '../../App.sass';
 
-.container
+.container1
     display: flex;
     width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-start; 
 
-.col-1 
-    width: 20%;
-    display: inline-block;
-    vertical-align: middle;
-
-.col-1 img
-    display: block;
-    padding: 1%;
-    width: 100%;
+.family 
+    width: 30vw
+    height: auto
+    margin: 10px;
+    padding: 1px;
     border: 5px solid $theme-color;
-    margin: 10% 10% 0% 35% ;
-
-
-.col-2
-    width: 50%;
-    margin: 10%;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
 
 .box
-    display: block;
+    text-align: center;
+    width: 40vw
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
@@ -41,6 +29,7 @@
     text-decoration: none;
 
 .bio-box
+    margin: 5%
     text-align: center;
     border: 10px solid rgba(255, 255, 255, 0.317);
     background-color: $theme-color;
@@ -53,33 +42,23 @@
     padding: 20px;
 
 
-@media screen and (max-width: 900px)
-    .col-1 img
-        width: 140%;
-        margin: 8% 8% 1% 75% ;
-    .box
-        margin: 10px 0 0 30%;
 @media screen and (max-width: 568px)
-    .col-1 img
-        width: 200%;
-        margin: 10px 0 15px 50px;
-    .col-1, .col-2
-        margin: 2% 10% 1% 10%;
-        display: block;
+    .container1
+        flex-direction: column
+    .family 
+        width: 40vw
     .box
-        margin: 10px 0 15px 50px;
-        width: 35vh;
+        width: 70vw
     .Profile
         background-image: url('../Assets/Skylar/moblie.jpg');
-        height: 100vh;
+        height: 100%;
         width: 100%;
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
         background-repeat: repeat-y;
         flex-direction: column;
-    .container
-        justify-content: column;
+
 
 
 

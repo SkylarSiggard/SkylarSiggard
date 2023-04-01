@@ -8,9 +8,9 @@ export default function Profile() {
     return (
         <div className="Profile">
             <section>
-                <div className="container">
+                <div className="container1">
                     <div className="col-1">
-                        <img src={Photo} alt="Profile"/>
+                        <img className='family' src={Photo} alt="Profile"/>
                 </div>
 			<div className="col-2">
                 <div className="box"><a href="https://github.com/SkylarSiggard">Github</a></div>
@@ -22,7 +22,7 @@ export default function Profile() {
 		</div>
             </section>
             <section>
-                <div className="container">
+                <div className="container2">
                     <div className="bio-box">
                         <p>With a passion for technology and an appetite for continuous learning, this skilled professional is making waves in the computer software industry. Currently working with Typescript, Skylar brings a wealth of experience in full-stack development, Python, React, HTML, CSS, and JavaScript.
                             After graduating from Utah Valley University with a bachelor's degree in Criminal Justice, Skylar embarked on a career in tech, earning a Full-Stack Web Development certificate from DevMountain. Alongside their academic pursuits, Skylar is also actively involved in the Cybersecurity Club and CTF Cybersecurity Team.
