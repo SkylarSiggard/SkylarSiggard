@@ -1,4 +1,4 @@
-import './Schooling';
+import './ Education';
 import React from 'react';
 
 export default function Schooling() {
