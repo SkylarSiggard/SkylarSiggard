@@ -16,6 +16,8 @@ import November from './components/Assets/Months/November.jpg'
 import December from './components/Assets/Months/December.jpg'
 import Hacked from './components/Assets/Months/Hacked.jpg'
 
+//! npm run deploy
+
 export default class App extends Component {
     constructor(){
         super()
