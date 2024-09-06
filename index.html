@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skylar Siggard</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .buttons a {
+            text-decoration: none;
+            margin: 5px;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            outline: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="buttons" id="buttons">
+    </div>
+</div>
+<script>
+    // Set the current month dynamically
+    const monthNames = [
+        "january", "february", "march", "april", "may", "june",
+        "july", "august", "september", "october", "november", "december"
+    ];
+    const currentMonth = monthNames[new Date().getMonth()];
+    document.body.style.backgroundImage = `url('./images/${currentMonth}.jpg')`;
+
+    // List of websites
+    const websites = [
+        {"name": "LinkedIn", "url": "https://www.linkedin.com/in/skylar-siggard"},
+        {"name": "GitHub", "url": "https://github.com/SkylarSiggard"}
+    ];
+
+    // Populate website links
+    const buttonsDiv = document.getElementById('buttons');
+    websites.forEach(site => {
+        const link = document.createElement('a');
+        link.href = site.url;
+        link.target = "_blank";
+
+        const button = document.createElement('button');
+        button.textContent = site.name;
+
+        link.appendChild(button);
+        buttonsDiv.appendChild(link);
+    });
+</script>
+</body>
+</html>
