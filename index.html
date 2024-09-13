@@ -12,6 +12,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            background-image: url('./images/skypi.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -23,9 +24,13 @@
             padding: 20px;
             border-radius: 10px;
         }
+        .buttons {
+            display: flex;
+            flex-direction: column;
+        }
         .buttons a {
             text-decoration: none;
-            margin: 5px;
+            margin: 5px 0;
         }
         .buttons button {
             padding: 10px 20px;
@@ -35,42 +40,20 @@
             text-align: center;
             outline: none;
             border-radius: 10px;
+            width: 100%;
         }
     </style>
 </head>
 <body>
 <div class="container">
-    <div class="buttons" id="buttons">
+    <div class="buttons">
+        <a href="https://www.linkedin.com/in/skylar-siggard" target="_blank">
+            <button>LinkedIn</button>
+        </a>
+        <a href="https://github.com/SkylarSiggard" target="_blank">
+            <button>GitHub</button>
+        </a>
     </div>
 </div>
-<script>
-    // Set the current month dynamically
-    const monthNames = [
-        "january", "february", "march", "april", "may", "june",
-        "july", "august", "september", "october", "november", "december"
-    ];
-    const currentMonth = monthNames[new Date().getMonth()];
-    document.body.style.backgroundImage = `url('./images/${currentMonth}.jpg')`;
-
-    // List of websites
-    const websites = [
-        {"name": "LinkedIn", "url": "https://www.linkedin.com/in/skylar-siggard"},
-        {"name": "GitHub", "url": "https://github.com/SkylarSiggard"}
-    ];
-
-    // Populate website links
-    const buttonsDiv = document.getElementById('buttons');
-    websites.forEach(site => {
-        const link = document.createElement('a');
-        link.href = site.url;
-        link.target = "_blank";
-
-        const button = document.createElement('button');
-        button.textContent = site.name;
-
-        link.appendChild(button);
-        buttonsDiv.appendChild(link);
-    });
-</script>
 </body>
 </html>
